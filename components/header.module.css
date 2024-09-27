@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div#root {
+    padding: 0;
+}
+
+.header {
+    border: 1px solid black;
+    /* position: fixed;
+    top: 0; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav_right_links {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.anchors {
+    text-decoration: none;
+    color: purple;
+}
+
+.anchors:hover {
+    opacity: 0.5;
+}

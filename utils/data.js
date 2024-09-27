@@ -17,15 +17,10 @@ export const data = [
     {
         id: 4,
         img1: '/images/black1.png',
-        img2: '/images/gray5.png',
-    },
-    {
-        id: 5,
-        img1: '/images/black1.png',
         img2: '/images/golden6.png',
     },
     {
-        id: 6,
+        id: 5,
         img1: '/images/black1.png',
         img2: '/images/orange7.png',
     }
