@@ -1,22 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { data } from '../utils/data';
 import { Image } from 'react-bootstrap';
 
 const JuiceProduct = () => {
+  const [filter, setFilter] = useState(data[0].img1);
+
+  const filterImage = (id) => {
+    const filterData = data.find((item) => {
+      return item.id === id;
+    })
+    setFilter(filterData);
+  }
+  // console.log(filter);
+  
+
   return (
     <div>
-      <div>
-        <Image src={data[0].img1} alt='BariImage' thumbnail />
-      </div>
       <div className='d-flex gap-3'>
         {data.map((value) => {
-            return (
-                <div key={value.id}>
-                    <Image width={300} height={300} src={value.id} alt="ChotiImages" thumbnail />
-                </div>
-            )
+          return (
+            <div onClick={() => filterImage(value.id)} key={value.id}>
+                <Image width={300} height={300} src={value.img2} alt="ChotiImages" thumbnail />
+            </div>
+          )
         })}
        </div>
+
+      <div>
+        <Image width={500} height={500} src={filter.img2 || data[0].img1} alt='BariImage' thumbnail />
+      </div>
     </div>
   )
 }

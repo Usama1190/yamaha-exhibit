@@ -1,32 +1,32 @@
 export const data = [
     {
         id: 1,
-        img1: '/images/bike1-removebg-preview.png',
-        img2: '/images/bike2-removebg-preview (1).png',
+        img1: '/images/black1.png',
+        img2: '/images/yellow2.png',
     },
     {
         id: 2,
-        img1: '/images/bike1-removebg-preview.png',
-        img3: '/images/bike3-removebg-preview.png',
+        img1: '/images/black1.png',
+        img2: '/images/blue3.png',
     },
     {
         id: 3,
-        img1: '/images/bike1-removebg-preview.png',
-        img4: '/images/bike4-removebg-preview.png',
+        img1: '/images/black1.png',
+        img2: '/images/red4.png',
     },
     {
         id: 4,
-        img1: '/images/bike1-removebg-preview.png',
-        img4: '/images/bike5-removebg-preview.png',
+        img1: '/images/black1.png',
+        img2: '/images/gray5.png',
     },
     {
         id: 5,
-        img1: '/images/bike1-removebg-preview.png',
-        img4: '/images/bike6-removebg-preview.png',
+        img1: '/images/black1.png',
+        img2: '/images/golden6.png',
     },
     {
         id: 6,
-        img1: '/images/bike1-removebg-preview.png',
-        img4: '/images/bike7-removebg-preview.png',
+        img1: '/images/black1.png',
+        img2: '/images/orange7.png',
     }
 ];

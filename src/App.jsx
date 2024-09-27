@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   return (
     <>
-    <Header />
+      <Header />
       <h1>Hello world!</h1>
       <JuiceProduct />
     </>
