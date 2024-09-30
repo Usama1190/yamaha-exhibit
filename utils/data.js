@@ -23,5 +23,10 @@ export const data = [
         id: 5,
         img1: '/images/black1.png',
         img2: '/images/orange7.png',
+    },
+    {
+        id: 6,
+        img1: '/images/black1.png',
+        img2: '/images/black1.png',
     }
 ];

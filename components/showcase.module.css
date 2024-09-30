@@ -1,0 +1,22 @@
+.showcase_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid yellow;
+    margin-top: 70px;
+}
+
+.images_list_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+    border: 1px solid red;
+}
+
+.images_list {
+    cursor: pointer;
+    height: 140px;
+    width: 140px;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { data } from '../utils/data';
 import { Image } from 'react-bootstrap';
+import styles from './showcase.module.css';
 
 const JuiceProduct = () => {
   const [filter, setFilter] = useState(data[0].img1);
@@ -15,11 +16,11 @@ const JuiceProduct = () => {
   
 
   return (
-    <div>
-      <div className='d-flex gap-3'>
+    <div className={styles.showcase_wrapper}>
+      <div className={styles.images_list_wrapper}>
         {data.map((value) => {
           return (
-            <div onClick={() => filterImage(value.id)} key={value.id}>
+            <div onClick={() => filterImage(value.id)} key={value.id} className={styles.images_list}>
                 <Image width={300} height={300} src={value.img2} alt="ChotiImages" thumbnail />
             </div>
           )

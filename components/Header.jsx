@@ -4,7 +4,7 @@ import styles from './header.module.css';
 const Header = () => {
   return (
     <div className={styles.header}>
-      <a href='/' className={styles.anchors}>Logo</a>
+      <a href='/' className={styles.anchors}>Showcase</a>
 
       <ul className={styles.nav_right_links}>
         <li><a href={'/'} className={styles.anchors}>Home</a></li>
