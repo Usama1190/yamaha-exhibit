@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { data } from '../utils/data';
-// import { Image } from 'react-bootstrap';
 import styles from './showcase.module.css';
 
-const JuiceProduct = () => {
+const Showcase = () => {
   const [filter, setFilter] = useState(data[0].img1);
 
   const filterImage = (id) => {
@@ -18,6 +17,7 @@ const JuiceProduct = () => {
   return (
     <div className={styles.showcase_wrapper}>
       <div className={styles.select_image_wrapper}>
+        <h1>{}</h1>
         <img className={styles.select_image} src={filter.img2 || data[0].img1} alt='BariImage' />
       </div>
 
@@ -34,4 +34,4 @@ const JuiceProduct = () => {
   )
 }
 
-export default JuiceProduct;
+export default Showcase;

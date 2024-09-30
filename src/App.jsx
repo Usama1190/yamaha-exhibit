@@ -1,13 +1,13 @@
 // import Header from '../components/Header';
 import BackgroundImage from '../components/BackgroundImage'
-import JuiceProduct from '../components/JuiceProduct'
+import Showcase from '../components/Showcase'
 import './App.css'
 
 function App() {
   return (
     <>
       <BackgroundImage />
-      <JuiceProduct />
+      <Showcase />
     </>
   )
 }
