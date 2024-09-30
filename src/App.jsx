@@ -1,11 +1,12 @@
-import Header from '../components/Header'
+// import Header from '../components/Header';
+import BackgroundImage from '../components/BackgroundImage'
 import JuiceProduct from '../components/JuiceProduct'
 import './App.css'
 
 function App() {
   return (
     <>
-      <Header />
+      <BackgroundImage />
       <JuiceProduct />
     </>
   )

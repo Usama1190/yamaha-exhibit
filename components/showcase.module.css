@@ -1,22 +1,45 @@
 .showcase_wrapper {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    border: 1px solid yellow;
-    margin-top: 70px;
 }
 
 .images_list_wrapper {
+    margin-top: 180px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 35%;
-    border: 1px solid red;
+    width: 32%;
+    height: 250px;
+    z-index: 1;
+    border: 1px solid rgb(190, 24, 24);
+    border-radius: 4px;
+    padding: 12px;
 }
 
 .images_list {
+}
+
+.image {
+    border: 1px solid rgb(160, 160, 20);
+    margin: 4px;
+    border-radius: 4px;
     cursor: pointer;
-    height: 140px;
-    width: 140px;
+    width: 90px;
+    height: 90px;
+}
+
+.select_image_wrapper {
+    width: 35%;
+    margin-top: 250px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid yellow; */
+}
+
+.select_image {
+    width: 330px;
+    height: 330px;
+    /* border: 1px solid orange; */
 }
