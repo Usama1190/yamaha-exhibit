@@ -11,13 +11,12 @@ div#root {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
 }
 
 .logo_wrapper {
     display: flex;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .logo_wrapper p {

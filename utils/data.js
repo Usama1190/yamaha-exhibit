@@ -20,7 +20,7 @@ export const data = [
     {
         id: 3,
         img1: '/images/hb1.png',
-        img2: '/images/hb4.png',
+        img2: '/images/hb8.png',
         model: 2015,
         modelName: 'Suzuki Intruder',
         price: 10000,
@@ -29,7 +29,7 @@ export const data = [
     {
         id: 4,
         img1: '/images/hb1.png',
-        img2: '/images/hb5.png',
+        img2: '/images/hb9.png',
         model: 2021,
         modelName: 'Handa CBR250',
         price: 30000,
@@ -38,7 +38,7 @@ export const data = [
     {
         id: 5,
         img1: '/images/hb1.png',
-        img2: '/images/orange7.png',
+        img2: '/images/hb11.png',
         model: 2008,
         modelName: 'Suzuki Gsx-r1000',
         price: 15000,
