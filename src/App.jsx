@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <BackgroundImage />
+      {/* <BackgroundImage /> */}
       <Showcase />
     </>
   )

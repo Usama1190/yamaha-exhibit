@@ -1,21 +1,22 @@
 .showcase_wrapper {
     width: 100vw;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
 }
 
 .images_list_wrapper {
-    margin-top: 100px;
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 30%;
-    height: 250px;
+    width: 100%;
+    /* height: 250px; */
     z-index: 1;
     border: 1px solid rgb(190, 24, 24);
     border-radius: 4px;
-    padding: 12px;
+    /* padding: 12px; */
 }
 
 .images_list {
@@ -31,8 +32,8 @@
 }
 
 .select_image_wrapper {
-    width: 50%;
-    margin-top: 150px;
+    margin-top: 50px;
+    width: 100%;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -42,5 +43,6 @@
 .select_image {
     width: 600px;
     height: 400px;
+    box-shadow: 2px 2px 2px red;
     /* border: 1px solid orange; */
 }
