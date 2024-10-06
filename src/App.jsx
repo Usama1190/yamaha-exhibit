@@ -1,12 +1,11 @@
-// import Header from '../components/Header';
-import BackgroundImage from '../components/BackgroundImage'
+import Header from '../components/Header';
 import Showcase from '../components/Showcase'
 import './App.css'
 
 function App() {
   return (
     <>
-      <BackgroundImage />
+      <Header />
       <Showcase />
     </>
   )

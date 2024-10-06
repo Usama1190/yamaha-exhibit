@@ -39,7 +39,7 @@
 }
 
 .select_image {
-    width: 330px;
-    height: 330px;
-    /* border: 1px solid orange; */
+    width: 400px;
+    height: 300px;
+    border: 1px solid orange;
 }

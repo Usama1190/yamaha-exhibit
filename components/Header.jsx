@@ -4,7 +4,10 @@ import styles from './header.module.css';
 const Header = () => {
   return (
     <div className={styles.header}>
-      <a href='/' className={styles.anchors}>Showcase</a>
+      <div className={styles.logo_wrapper}>
+        <a href='/' className={styles.logo}><img src={'/images/yamahlogo.png'} alt="logo" /></a>
+        <p>passion ahead</p>
+      </div>
 
       <ul className={styles.nav_right_links}>
         <li><a href={'/'} className={styles.anchors}>Home</a></li>

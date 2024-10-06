@@ -1,25 +1,30 @@
-
-
-body {
-    padding: 0;
-    margin: 0;
-    background-color: #181C14;
-}
-
 div#root {
     padding: 0;
 }
 
 .header {
-    /* border: 1px solid purple; */
+    border: 1px solid rgb(197, 193, 197);
     position: sticky;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    background-color: #161515;
+    background-color: white;
+}
+
+.logo_wrapper {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.logo_wrapper p {
+    margin: 0;
+}
+
+.logo {
+    /* border: 1px solid black; */
 }
 
 .nav_right_links {
@@ -34,7 +39,8 @@ div#root {
 
 .anchors {
     text-decoration: none;
-    color: purple;
+    transition: all 0.3;
+    color: black;
 }
 
 .anchors:hover {
