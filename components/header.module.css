@@ -6,7 +6,8 @@ div#root {
     border: 1px solid rgb(197, 193, 197);
     position: sticky;
     top: 0;
-    width: 100%;
+    z-index: 1;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +17,7 @@ div#root {
 .logo_wrapper {
     display: flex;
     align-items: center;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 .logo_wrapper p {
@@ -28,22 +29,23 @@ div#root {
 }
 
 .nav_right_links {
-    width: 50%;
+    width: 40%;
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0;
-    /* border: 1px solid red; */
 }
 
 .anchors {
+    padding: 8px;
     text-decoration: none;
     transition: all 0.3;
-    color: black;
+    color: #B24B63;
 }
 
 .anchors:hover {
+    border-bottom: 1px solid red;
     opacity: 0.5;
 }
 

@@ -16,11 +16,6 @@ const Showcase = () => {
 
   return (
     <div className={styles.showcase_wrapper}>
-      <div className={styles.select_image_wrapper}>
-        <h1>{}</h1>
-        <img className={styles.select_image} src={filter.img2 || data[0].img1} alt='BariImage' />
-      </div>
-
       <div className={styles.images_list_wrapper}>
         {data.map((value) => {
           return (
@@ -30,6 +25,11 @@ const Showcase = () => {
           )
         })}
        </div>
+
+       <div className={styles.select_image_wrapper}>
+        <h1>{}</h1>
+        <img className={styles.select_image} src={filter.img2 || data[0].img1} alt='BariImage' />
+      </div>
     </div>
   )
 }
