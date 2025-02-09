@@ -2,8 +2,7 @@ div#root {
     padding: 0;
 }
 
-.header {
-    border: 1px solid rgb(197, 193, 197);
+.hw {
     position: sticky;
     top: 0;
     z-index: 1;
@@ -13,21 +12,16 @@ div#root {
     align-items: center;
 }
 
-.logo_wrapper {
+.hlw {
     display: flex;
     align-items: center;
-    /* border: 1px solid black; */
 }
 
-.logo_wrapper p {
+.hlw p {
     margin: 0;
 }
 
-.logo {
-    /* border: 1px solid black; */
-}
-
-.nav_right_links {
+.nrl {
     width: 40%;
     list-style: none;
     display: flex;
@@ -36,15 +30,13 @@ div#root {
     margin: 0;
 }
 
-.anchors {
+.nrl a {
     padding: 8px;
     text-decoration: none;
     transition: all 0.3;
-    color: #B24B63;
 }
 
-.anchors:hover {
-    border-bottom: 1px solid red;
+.nrl a:hover {
     opacity: 0.5;
 }
 
