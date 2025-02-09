@@ -1,23 +1,25 @@
-div#root {
-    padding: 0;
-}
-
-.hw {
+.hdw {
     position: sticky;
     top: 0;
-    z-index: 1;
-    width: 100vw;
+}
+
+.hdiw {
+    border: 1px solid red;
+    max-width: 1300px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 16px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.hlw {
+
+.hdlw {
     display: flex;
     align-items: center;
 }
 
-.hlw p {
+.hdlw p {
     margin: 0;
 }
 

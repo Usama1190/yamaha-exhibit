@@ -1,0 +1,1 @@
+export const navLinks = ['Showcase', 'Services', 'About', 'Contact'];
