@@ -4,11 +4,11 @@
 }
 
 .hdiw {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 1300px;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 16px 0;
+    padding: 32px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -21,24 +21,5 @@
 
 .hdlw p {
     margin: 0;
-}
-
-.nrl {
-    width: 40%;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-}
-
-.nrl a {
-    padding: 8px;
-    text-decoration: none;
-    transition: all 0.3;
-}
-
-.nrl a:hover {
-    opacity: 0.5;
 }
 

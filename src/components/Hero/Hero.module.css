@@ -1,32 +1,30 @@
 .hw {
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid red;
+    padding: 96px 0;
 }
 
-.hic {
+.hiw {
+    /* border: 1px solid red; */
     max-width: 1300px;
     box-sizing: border-box;
     margin: 0 auto;
-    border: 1px solid purple;
+}
+
+.hic {
+    padding: 16px 0 136px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid blue; */
 }
 
 .ilw {
-    position: fixed;
-    bottom: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
-    z-index: 1;
     border-radius: 4px;
-}
-
-.hiw {
-    /* border: 1px solid purple; */
-    /* display: flex; */
 }
 
 .img {
@@ -38,16 +36,18 @@
 }
 
 .siw {
-    margin-top: 50px;
-    width: 100%;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
     /* border: 1px solid red; */
-}
-
-.si {
-    z-index: 1;
-    width: 600px;
+    width: 45%;
     height: 400px;
 }
+
+.scw {
+    /* border: 1px solid red; */
+    width: 45%;
+}
+
+.siw img {
+    width: 100%;
+    object-fit: cover;
+}
+

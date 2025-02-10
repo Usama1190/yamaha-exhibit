@@ -18,13 +18,20 @@ const Hero = () => {
         <div className={styles.hic}>
           <div className={styles.siw}>
             <img
-              className={styles.si}
               src={filter.img2 || data[0].img1}
               alt="BariImage"
             />
           </div>
-          <div>
-            <h1>{data[0].model}</h1>
+          <div className={styles.scw}>
+              <h2>{filter.brand}</h2>
+              <h2>{filter.model}</h2>
+              <h2>{filter.price}</h2>
+              <h2>{filter.modelName}</h2>
+              <h2>{filter.modelColor}</h2>
+              <h2>{filter.engineCapacity}</h2>
+              <h2>{filter.topSpeed}</h2>
+              <h2>{filter.fuelType}</h2>
+              <h2>{filter.weight}</h2>
           </div>
         </div>
 

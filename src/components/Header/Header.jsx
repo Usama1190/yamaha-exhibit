@@ -1,4 +1,3 @@
-import { navLinks } from "../../utils/constant/navbar";
 import styles from "./header.module.css";
 
 const Header = () => {
@@ -12,15 +11,9 @@ const Header = () => {
           <p>passion ahead</p>
         </div>
 
-        <ul className={styles.nrl}>
-          {
-            navLinks.map((item, index) => {
-              return (
-                <li key={index}>{item}</li>
-              )
-            })
-          }
-        </ul>
+        <div>
+          <h5>Showcase</h5>
+        </div>
       </div>
     </div>
   );
