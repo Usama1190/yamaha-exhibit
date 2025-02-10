@@ -44,6 +44,8 @@
 .scw {
     /* border: 1px solid red; */
     width: 45%;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .siw img {
