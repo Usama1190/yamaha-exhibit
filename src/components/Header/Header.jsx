@@ -1,3 +1,4 @@
+import { navData } from "../../utils/constant/navData";
 import styles from "./header.module.css";
 
 const Header = () => {
@@ -12,7 +13,17 @@ const Header = () => {
         </div>
 
         <div>
-          <h5>Showcase</h5>
+          <ul>
+            {
+              navData.map((item, index) => {
+                return (
+                  <li key={index}>
+                    <a href="#">{item}</a>
+                  </li>
+                )
+              })
+            }
+          </ul>
         </div>
       </div>
     </div>

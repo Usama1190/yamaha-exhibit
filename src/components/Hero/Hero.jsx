@@ -18,7 +18,7 @@ const Hero = () => {
         <div className={styles.hic}>
           <div className={styles.siw}>
             <img
-              src={filter.img2 || data[0].img1}
+              src={filter.img2 || data[0].img2}
               alt="BariImage"
             />
           </div>
@@ -26,7 +26,7 @@ const Hero = () => {
               <h2>Yamaha</h2>
               <p>Model Year : <strong>{filter.model || data[0].model}</strong></p>
               <p>Model Name : <strong>{filter.modelName || data[0].modelName}</strong></p>
-              <p>Engine Capacity : <strong>{filter.engineCapacity || data[0].engineCapacity}</strong></p>
+              <p>Engine Capacity : <strong>{filter.engineCapacity || data[0].engineCapacity}cc</strong></p>
               <p>Price : <strong>${filter.price || data[0].price}</strong></p>
               <p>Model Color : <strong>{filter.modelColor || data[0].modelColor}</strong></p>
               <p>Top Speed : <strong>{filter.topSpeed || data[0].topSpeed}/mph</strong></p>
